@@ -146,26 +146,26 @@ button:hover{
 
     nav span{
         border-left: 2px #626262 solid;
+        position: relative;
+        top: 30%;
+        height: 15px;
     }
 
     a{
     margin: 5%;
     font-size: 1.5rem;
     }
+    
+    
     .artist a {
         font-size: 14px;
-        
         display: flex;
         justify-content: center;
         align-items: center;
-        
-
-    
     }
 
     
     hr{
-       
         border-width: 1px;
     }
 
@@ -175,23 +175,22 @@ button:hover{
         align-items: center;
         height: 100%;
         width: 80%;
-       
     }
    
 
     .artist img{
-        width: 200px;
-        height: 150px;
+        width: 250px;
+        height: 200px;
         border-radius: 10px;
         position: relative;
-        right: 25%;
+        right: 50%;
+        margin-bottom: 55px;
     }
 
     .artist{
         display: flex;
        flex-direction: inherit;
        align-items: inherit;
-
     }
 
     .bio{
@@ -200,6 +199,19 @@ button:hover{
         height: 150px;
         text-align: inherit;
         margin-bottom: 80%;
+    }
 
+    .title-container div {
+        width: 100%;
+        max-height: 68vh;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg');
+        background-repeat: no-repeat;
+        margin:5% 0;
+        
+      
+    }
+
+    .title-container div  button{
+        background-color: white;
     }
 }
